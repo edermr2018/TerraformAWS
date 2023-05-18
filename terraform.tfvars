@@ -2,7 +2,7 @@
 sg_name = ["sg_capacitacion terraform1", "sg_capacitacion terraform2", "sg_capacitacion terraform3"]
 
 ## Descripcion de los sg
-sg_descriptions = "Nuevo security group para la capacitacion de terraform"
+sg_descriptions = "Son los security group para el despliegue en terraform"
 
 ## Datos de entrada para los tags del sg
 sg_tags = {
@@ -16,7 +16,7 @@ vpc_id = "vpc-0ec6fcf8541caeea9"
 region = "us-east-1"
 
 ## AMI que se usara para crear las EC2
-ami = "ami-06e46074ae430fba6"
+ec2_ami = "ami-06e46074ae430fba6"
 
 ## Datos de entrada para los tags de las EC2
 tags_ec2_name = {

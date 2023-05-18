@@ -1,5 +1,5 @@
-##Variable para establecer la ami que se usara en el deployment
-variable "ami" {
+##Variable para establecer la ami que se usara en el deployment con terraform
+variable "ec2_ami" {
   type = string
 }
 

@@ -24,7 +24,7 @@ variable "region" {
 }
 
 ##Variable para establecer la ami que se usara en el deployment
-variable "ami" {
+variable "ec2_ami" {
   type = string
 }
 
