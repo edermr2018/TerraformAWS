@@ -16,14 +16,14 @@ vpc_id = "vpc-0ec6fcf8541caeea9"
 region = "us-east-1"
 
 ## AMI que se usara para crear las EC2
-ec2_ami = "ami-06e46074ae430fba6"
+ec2_ami = "ami-0889a44b331db0194"
 
 ## Datos de entrada para los tags de las EC2
-tags_ec2_name = {
+ec2_tags = {
   "nombre" = "EderTerraform"
 }
 
 ## Tipo de familia que se usara en la EC2
-instance_type = "t2.micro"
+ec2_instance_type = "t2.micro"
 
 

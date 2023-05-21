@@ -4,12 +4,12 @@ variable "ec2_ami" {
 }
 
 ##Variable para establecer los tags que se usaran en el deployment
-variable "tags_ec2_name" {
+variable "ec2_tags" {
   type = map(string)
 }
 
 ##Variable para establecer la familia ec2 que se usara en el deployment
-variable "instance_type" {
+variable "ec2_instance_type" {
   type = string
 }
 
