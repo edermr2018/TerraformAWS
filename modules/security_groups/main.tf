@@ -1,5 +1,5 @@
 
-resource "aws_security_group" "sg_capacitacion" {
+resource "aws_security_group" "sg_terraform" {
   count       = length(var.sg_name)
   name        = var.sg_name[count.index]
   #name 
@@ -14,9 +14,9 @@ resource "aws_security_group" "sg_capacitacion" {
   }
   egress {
     from_port   = 0
-    protocol    = "-1"
+    protocol    = "TPC"
     to_port     = 0
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-    
+
